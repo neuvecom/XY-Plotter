@@ -41,7 +41,7 @@ AliExpress などで販売されている **サーボ 3 個 + Arduino Nano + Blu
 | # | 内容 |
 |---|---|
 | [01](docs-dev/manual/01-overview-and-bom.md) | 概要・部品リスト（BOM）・必要工具 |
-| [02](docs-dev/manual/02-assembly.md) | 組み立て手順（全 16 ステップ、公式写真つき） |
+| [02](docs-dev/manual/02-assembly.md) | 組み立て手順（全 16 ステップ、部品カード図つき） |
 | [03](docs-dev/manual/03-wiring.md) | 配線図・ピンアサイン |
 | [04](docs-dev/manual/04-firmware.md) | ファームウェアの書き込み手順とソース解説 |
 | [05](docs-dev/manual/05-android-app.md) | Android アプリの導入・Bluetooth 接続・使い方 |
@@ -73,10 +73,22 @@ XY-Plotter/
 │   └── Drawing/Drawing.ino       公式と同一動作の日本語コメント付きリファレンス
 ├── tools/
 │   ├── workspace_map.py          描画可能範囲を逆運動学から計算するスクリプト
+│   ├── diagrams/                 ドキュメント用 SVG 図の生成スクリプト
 │   └── equivalence_check/        公式版と解説版の等価性を検証するテスト
 └── docs-dev/
     ├── manual/                   日本語ドキュメント（上表）
+    │   └── images/               SVG 図（生成物。手で編集しない）
     └── work_log/                 作業ログ
+```
+
+### 図の再生成
+
+ドキュメント中の図はすべてスクリプトから生成しています。
+寸法や配線を変更したときは、次を実行して図を作り直してください。
+
+```bash
+python3 tools/diagrams/mechanism.py   # 機構図・座標系・描画範囲・配線図
+python3 tools/diagrams/steps.py       # 組み立て 16 ステップの部品カード
 ```
 
 ### 付属資料を手元に置く場合

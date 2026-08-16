@@ -5,9 +5,12 @@
 製品に付属する公式組立説明書（`1.Installation instruction.pdf`、および同内容の JPEG）を
 日本語で解説したものです。
 
+各手順には、その工程で使う部品と数量を示した **SVG の部品カード** を付けています。
+
 > 📷 **写真について**: 公式組立説明書はメーカーの著作物のため、本リポジトリには含めていません。
-> 製品に付属している PDF（16 ページ、全ページが写真 1 枚）を手元に開きながら読んでください。
-> 各手順に、対応するページ番号を記載しています。
+> 部品カードは「何をいくつ使うか」の早見表で、写真の置き換えではありません。
+> 実物の写真は製品付属の PDF（16 ページ）を手元に開きながら読んでください。
+> 図はすべて `tools/diagrams/` のスクリプトで生成しています。
 
 ---
 
@@ -30,8 +33,9 @@
 
 ## ① ベースプレートに Nano + 拡張シールドを載せる
 
-> 📷 **公式組立説明書 ①ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 1 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/01.jpg`）
+![手順1 使う部品](images/step-01.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ①ページ**（PDF の 1 ページ目 ／ JPEG 版 `01.jpg`）を参照してください。
 
 **使う物**: Arduino Nano、Nano IO 拡張シールド、黒アクリルのベースプレート、
 金属レール 2 本、M3×8 ボルト ×8、M3 ナット ×8、M3×2 黒樹脂ワッシャ ×4
@@ -50,8 +54,9 @@
 
 ## ② HC-06（Bluetooth モジュール）を取り付ける
 
-> 📷 **公式組立説明書 ②ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 2 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/02.jpg`）
+![手順2 使う部品](images/step-02.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ②ページ**（PDF の 2 ページ目 ／ JPEG 版 `02.jpg`）を参照してください。
 
 **使う物**: HC-06、黒い樹脂ホルダー、M3×12 ボルト ×4、M3 ナット ×4
 
@@ -64,8 +69,9 @@
 
 ## ③ サーボ台座ブラケットを取り付ける
 
-> 📷 **公式組立説明書 ③ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 3 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/03.jpg`）
+![手順3 使う部品](images/step-03.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ③ページ**（PDF の 3 ページ目 ／ JPEG 版 `03.jpg`）を参照してください。
 
 **使う物**: L 字の板金ブラケット（大）、M3×8 ボルト ×2、M3 ナット ×2
 
@@ -77,8 +83,9 @@
 
 ## ④ ペン昇降レバーを組む（バネ + 支点）
 
-> 📷 **公式組立説明書 ④ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 4 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/04.jpg`）
+![手順4 使う部品](images/step-04.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ④ページ**（PDF の 4 ページ目 ／ JPEG 版 `04.jpg`）を参照してください。
 
 **使う物**: 板金レバー（小）、引張バネ 5×0.4×6、M3×8 ワッシャ ×1、M3×6 ボルト ×1、M3 ナット ×1
 
@@ -94,8 +101,9 @@
 
 ## ⑤ ペン昇降レバーをベースに取り付ける
 
-> 📷 **公式組立説明書 ⑤ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 5 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/05.jpg`）
+![手順5 使う部品](images/step-05.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑤ページ**（PDF の 5 ページ目 ／ JPEG 版 `05.jpg`）を参照してください。
 
 **使う物**: M3×16 ボルト ×2、M3×9 黒樹脂スペーサ（円筒）×2、M3 ナット ×2
 
@@ -108,8 +116,9 @@
 
 ## ⑥ 肩サーボ 2 個をブラケットに固定する
 
-> 📷 **公式組立説明書 ⑥ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 6 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/06.jpg`）
+![手順6 使う部品](images/step-06.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑥ページ**（PDF の 6 ページ目 ／ JPEG 版 `06.jpg`）を参照してください。
 
 **使う物**: サーボ用コの字ブラケット、MG90S ×2、M2×8 ボルト ×4、M2 ナット ×4
 
@@ -123,8 +132,9 @@
 
 ## ⑦ 肘のベアリングを取り付ける
 
-> 📷 **公式組立説明書 ⑦ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 7 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/07.jpg`）
+![手順7 使う部品](images/step-07.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑦ページ**（PDF の 7 ページ目 ／ JPEG 版 `07.jpg`）を参照してください。
 
 **使う物**: M3×12 ボルト ×1、M3×8 ベアリング ×2、M3×8 ボルト ×1、M3 ナット ×2
 
@@ -137,8 +147,9 @@
 
 ## ⑧ サーボブラケットをベースに固定する
 
-> 📷 **公式組立説明書 ⑧ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 8 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/08.jpg`）
+![手順8 使う部品](images/step-08.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑧ページ**（PDF の 8 ページ目 ／ JPEG 版 `08.jpg`）を参照してください。
 
 **使う物**: M3×6 ボルト ×1、M3×8 ワッシャ ×1、M3 ナット ×1
 
@@ -149,8 +160,9 @@
 
 ## ⑨ 反対側のブラケットを固定する
 
-> 📷 **公式組立説明書 ⑨ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 9 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/09.jpg`）
+![手順9 使う部品](images/step-09.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑨ページ**（PDF の 9 ページ目 ／ JPEG 版 `09.jpg`）を参照してください。
 
 **使う物**: 小型 L 字ブラケット、M3×8 ボルト ×2、M3 ナット ×2
 
@@ -163,8 +175,9 @@
 
 ## ⑩ ペン昇降用サーボ（3 個目）を取り付ける
 
-> 📷 **公式組立説明書 ⑩ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 10 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/10.jpg`）
+![手順10 使う部品](images/step-10.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑩ページ**（PDF の 10 ページ目 ／ JPEG 版 `10.jpg`）を参照してください。
 
 **使う物**: MG90S ×1、M2×8 ボルト ×2、M2 ナット ×2
 
@@ -176,8 +189,9 @@
 
 ## ⑪ 配線する
 
-> 📷 **公式組立説明書 ⑪ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 11 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/11.jpg`）
+![手順11 使う部品](images/step-11.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑪ページ**（PDF の 11 ページ目 ／ JPEG 版 `11.jpg`）を参照してください。
 
 配線の詳細は **[03. 配線図・ピンアサイン](03-wiring.md)** にまとめてあります。要点だけ再掲します。
 
@@ -201,8 +215,9 @@
 
 ## ⑫ ★通電して原点を出し、サーボホーンを取り付ける★
 
-> 📷 **公式組立説明書 ⑫ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 12 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/12.jpg`）
+![手順12 使う部品](images/step-12.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑫ページ**（PDF の 12 ページ目 ／ JPEG 版 `12.jpg`）を参照してください。
 
 **この手順が仕上がりを左右します。**
 
@@ -233,8 +248,9 @@
 
 ## ⑬ 上腕リンク（短いアーム）をホーンに取り付ける
 
-> 📷 **公式組立説明書 ⑬ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 13 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/13.jpg`）
+![手順13 使う部品](images/step-13.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑬ページ**（PDF の 13 ページ目 ／ JPEG 版 `13.jpg`）を参照してください。
 
 **使う物**: 短いリンク板 ×2（ベアリング圧入済みの穴があるもの）、M2.5×6 タッピングビス ×2
 
@@ -246,8 +262,9 @@
 
 ## ⑭ 前腕リンク（長いアーム）を 2 本つなぐ
 
-> 📷 **公式組立説明書 ⑭ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 14 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/14.jpg`）
+![手順14 使う部品](images/step-14.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑭ページ**（PDF の 14 ページ目 ／ JPEG 版 `14.jpg`）を参照してください。
 
 **使う物**: 長いリンク板 ×2、M3×8 ボルト ×1、M3 ナット ×1
 
@@ -259,8 +276,9 @@
 
 ## ⑮ ペンホルダーを取り付ける
 
-> 📷 **公式組立説明書 ⑮ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 15 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/15.jpg`）
+![手順15 使う部品](images/step-15.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑮ページ**（PDF の 15 ページ目 ／ JPEG 版 `15.jpg`）を参照してください。
 
 **使う物**: 黒いペンホルダーブロック、M3×10 ボルト ×2、M3 ナット ×2
 
@@ -271,8 +289,9 @@
 
 ## ⑯ アームを本体に接続して完成
 
-> 📷 **公式組立説明書 ⑯ページ** を参照
-> （PDF `1.Installation instruction.pdf` の 16 ページ目 ／ JPEG 版 `Backup/1.Installation instruction/16.jpg`）
+![手順16 使う部品](images/step-16.svg)
+
+> 📷 実物の写真は **付属の公式組立説明書 ⑯ページ**（PDF の 16 ページ目 ／ JPEG 版 `16.jpg`）を参照してください。
 
 **使う物**: M3×12 ボルト ×1、M3×10 ボルト ×1、M3 ナット ×2、M3×2 黒樹脂ワッシャ ×1
 

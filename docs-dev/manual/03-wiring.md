@@ -39,6 +39,8 @@ Serial.begin(9600);  // HC-06 はハードウェアシリアル D0/D1
 
 ## 2. 配線の全体像
 
+![配線図](images/wiring.svg)
+
 ```mermaid
 graph LR
     PHONE["Android スマホ<br/>Drawing Bot アプリ"]
