@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# メーカー付属資料（著作物のため配布しない）
+official-manual/
